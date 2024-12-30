@@ -1,0 +1,11 @@
+{
+	"name": "Block Honey Tabs",
+	"version": "1.0",
+	"manifest_version": 3,
+	"description": "Blocks Honey extension from opening new tabs.",
+	"permissions": ["tabs"],
+	"host_permissions": ["https://o.honey.io/*"],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
